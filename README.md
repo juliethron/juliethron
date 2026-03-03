@@ -1,4 +1,10 @@
-## Hi there 👋
+Hallais! My name Julie :)
+
+- 🔭 I’m currently working on this portfolio
+- 🌱 I’m currently learning nothing new atm, but hopefully something fun soon!
+- 💬 Ask me about Five Nights at Freddys/Poppy Playtime lore
+- 📫 How to reach me: julthr05178@stud.noroff.no
+- ⚡ Fun fact: I have over 300+ hours in Skyrim 
 
 <!--
 **juliethron/juliethron** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
