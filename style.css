@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 30px;
+}
+
+.projects {
+  padding: 40px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  text-decoration: none;
+  background: #0077cc;
+  color: white;
+  border-radius: 4px;
+}
+
+.documents {
+  padding: 40px;
+}
+
+.documents a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 14px;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 20px;
+  background: #222;
+  color: white;
+}
