@@ -63,8 +63,24 @@ header {
   border-radius: 5px;
 }
 
+.doc-button {
+display: inline-block;
+margin: 10px;
+padding: 10px 16px;
+background: #222;
+color: white;
+text-decoration: none;
+border-radius: 6px;
+transition: 0.2s;
+}
+
+.doc-button:hover {
+background: #444;
+}
+
 footer {
   padding: 20px;
   background: #222;
   color: white;
 }
+
