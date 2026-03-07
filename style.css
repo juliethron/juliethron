@@ -12,7 +12,7 @@ section {
 }
 
 header {
-  background: linear-gradient(135deg, #222, #444);
+  background: linear-gradient(to bottom, #007FFF, #3da5ff);
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -62,7 +62,7 @@ header h1 {
   display: inline-block;
   margin: 8px 5px;
   padding: 8px 14px;
-  background: #0077cc;
+  background: #007FFF;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -71,7 +71,7 @@ header h1 {
 }
 
 .buttons a:hover {
-  background: #005fa3;
+  background: #0066cc;
 }
 
 .documents {
