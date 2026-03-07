@@ -1,14 +1,26 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
   background: #f4f4f4;
   text-align: center;
 }
 
+
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
 header {
-  background: #222;
+  background: linear-gradient(135deg, #222, #444);
   color: white;
-  padding: 30px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
 .projects {
@@ -26,13 +38,20 @@ header {
   background: white;
   width: 280px;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
 .project-card img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
 
 .buttons {
@@ -41,12 +60,18 @@ header {
 
 .buttons a {
   display: inline-block;
-  margin: 5px;
-  padding: 8px 12px;
-  text-decoration: none;
+  margin: 8px 5px;
+  padding: 8px 14px;
   background: #0077cc;
   color: white;
-  border-radius: 4px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.buttons a:hover {
+  background: #005fa3;
 }
 
 .documents {
@@ -79,8 +104,17 @@ background: #444;
 }
 
 footer {
+  text-align: center;
   padding: 20px;
   background: #222;
   color: white;
 }
 
+footer a {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
